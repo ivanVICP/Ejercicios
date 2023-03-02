@@ -1,0 +1,58 @@
+public class Main {
+    public static void main(String[] args) {
+       int numeroif = 0;
+       int numeroWhile = 0;
+       String estacion = "otoño";
+// if
+
+        if(numeroif>0 && numeroif!=0 ) {
+            System.out.println("es positivo");
+        }
+else if (numeroif<0 && numeroif!=0) {
+            System.out.println("es negativo");
+        }
+else {
+            System.out.println("es numero cero");
+        }
+        System.out.println();
+// bucle while
+        while (numeroWhile<3){
+            System.out.println("numeroWhile "+numeroWhile);
+            numeroWhile++;
+        }
+// bucle do While
+        System.out.println();
+        do {
+            System.out.println("numeroWhile "+numeroWhile);
+            numeroWhile++;
+        }while (numeroWhile<3);
+
+ // bucle for
+        System.out.println();
+            for(int numeroFor = 0 ; numeroFor <= 3 ; numeroFor++){
+            System.out.println("numeroFor"+numeroFor);
+        }
+ //bucle switch
+        System.out.println();
+            switch(estacion) {
+                case "primavera":
+                    System.out.println("primavera");
+                break;
+                case "verano":
+                    System.out.println("verano");
+                    break;
+                case "otoño":
+                    System.out.println("otoño");
+                    break;
+                case "invierno":
+                    System.out.println("invierno");
+                    break;
+                default:
+                    System.out.println("favor de ingresar un valor valido");
+            }
+
+
+
+
+            }
+}
